@@ -1,5 +1,6 @@
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Hashseting {
    public static void main(String[] args) {
@@ -30,12 +31,20 @@ System.out.println(set.size() + " is size of your set");
  }
 
  //remove
- set.remove(1);
- if (!set.contains(1)) {
-System.out.println("We deleted 1");
+//  set.remove(1);
+//  if (!set.contains(1)) {
+// System.out.println("We deleted 1");
    
- }
+//  }
 
+
+
+//print all elements
+System.out.println(set);
+
+//iterator 
+Iterator it = set.iterator();
+//hasNext & Next function in it 
 
    } 
 }
