@@ -46,5 +46,11 @@ System.out.println(set);
 Iterator it = set.iterator();
 //hasNext & Next function in it 
 
+while(it.hasNext()){
+   System.out.println(it.next());
+}
+
+
+
    } 
 }
