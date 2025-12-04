@@ -1,6 +1,7 @@
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class MashMapPractice {
     public static void main(String[] args) {
@@ -52,5 +53,15 @@ for(Map.Entry<String, Integer> e : map.entrySet()){
 
 
 Set<String> keys = map.keySet();
+for(String key: keys){
+    System.out.println(key+" "+ map.get( key));
+}
+
+System.out.println(
+
+);
+map.remove("China");
+System.out.println(map);
+
 }
 }
