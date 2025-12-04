@@ -48,5 +48,9 @@ for(Map.Entry<String, Integer> e : map.entrySet()){
     System.out.println(e.getKey());
     System.out.println(e.getValue());
 }
+
+
+
+Set<String> keys = map.keySet();
 }
 }
