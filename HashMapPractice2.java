@@ -22,9 +22,9 @@ public class HashMapPractice2 {
         @SuppressWarnings("unchecked")
         public HashMap(){
             this.N=4;
-            this.buckets=new LinkedList[4];
+            this.buckets=new LinkedList[4];//initialzed bucket
             for(int i=0;i<4;i++){
-                this.buckets[i] = new LinkedList<>();
+                this.buckets[i] = new LinkedList<>(); //empty linked list start
 
             }
         }
