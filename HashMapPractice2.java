@@ -3,9 +3,9 @@ import java.util.LinkedList;
 
 public class HashMapPractice2 {
 
-    public class HashMapCode{
+
     static class HashMap(K,V)//generics{
-        private class Node{
+        private class Node{ //node of linkedList
             K Key;
             V value;
         public Node(K key, V value){
@@ -28,7 +28,7 @@ public class HashMapPractice2 {
 
             }
         }
-    }
+    
 public void put(K key, V value){
 
 }
