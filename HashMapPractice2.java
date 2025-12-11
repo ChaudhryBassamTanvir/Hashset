@@ -28,8 +28,28 @@ public class HashMapPractice2 {
 
             }
         }
+    private int hashFunction(K key){
+
+    }
+    private 
+public void put(K key, V value){ 
+
+   int bi= hashFunction(key);
+    int di= searchInLL(key, bi);//data index di=value(valid)
+if (di==-1) { //key doesn't exits
+buckets[bi].add(new Node(key, value));
+    n++;
+}else{//key exist
+Node data=buckets[bi].get(di);
+data.value=value;
+}
+
+double lamda= (double)n/N;
+if (lamda>2.0) {
+    //rehashing
     
-public void put(K key, V value){
+}
+
 
 }
 
